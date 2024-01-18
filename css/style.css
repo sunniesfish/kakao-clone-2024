@@ -18,12 +18,16 @@
 @import "screens/chat.css";
 @import "screens/more.css";
 
+html {
+    height: 100%;
+    background: linear-gradient(to bottom, var(--purple), white);
+}
 
 body {
     color: #2e363e;
-    font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Open Sans', sans-serif;;
 }
+
 .main-screen {
     padding: 0px var(--horizontal-space);
 }

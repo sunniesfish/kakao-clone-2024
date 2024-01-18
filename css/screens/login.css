@@ -1,3 +1,9 @@
+#login {
+    height: 100%;
+    width: 100%;
+    
+}
+
 .welcome-header {
     margin: 90px 0px 80px 0px;
     text-align: center;
@@ -26,6 +32,7 @@
     padding: 15px 0px;
     font-size: 17px;
     margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #login-form input:not([type="submit"]){
@@ -38,11 +45,11 @@
 }
 
 #login-form input:focus {
-    border-color: var(--yellow)
+    border-color: var(--green);
 }
 
 #login-form input[type="submit"]{
-    background-color: var(--yellow);
+    background-color: var(--green);
     cursor:pointer;
     font-size: 17px;
     padding: 20px 0px;
