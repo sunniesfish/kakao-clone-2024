@@ -5,7 +5,8 @@
 }
 
 .welcome-header {
-    margin: 90px 0px 80px 0px;
+    margin: 0px 0px 80px 0px;
+    padding: 90px 0px 0px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -61,4 +62,7 @@
     text-decoration: none;
     color: inherit;
     font-size: 13px;
+}
+.index-status-bar {
+
 }
